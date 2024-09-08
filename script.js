@@ -1,3 +1,5 @@
+'use strict';
+
 // My first code 
 
 // console.log('this is my fist code')
@@ -342,3 +344,153 @@ if(candyes){
 // const vehical = age >= 18 ? `car` : `bicycle`;
 // console.log(vehical);
   
+
+
+
+////////////////// part two basic of JavaScript //////////////////////////////////////////////
+
+
+
+// 1.Strict Mode: a speatial mode that we can activate in Java Script which make easer java script sercure 
+// 'use strict'; use for spasific functions or blocs
+
+/*
+let isAvalibal = true;
+let inMeeting = true;
+
+if(inMeeting) isAvalibal = false;
+if(isAvalibal) console.log('person is avalibal');
+else console.log("person is in meeting");
+*/
+// const public = 'canada';
+// const private = 'rom 15 ';
+// const switch = 'open';
+
+// 2.FUNCTIONS: the fundamental of bulding  of real world javascript applications are functios 
+// simply a pease of code that we can use over and over again in our code 
+/*
+function welcomeText () {
+   console.log('Welcome to my page!');
+}
+
+welcomeText('hello') //invoking, running, calling 
+welcomeText()
+welcomeText()
+
+function calculator(number1, number2) {
+   console.log(number1, number2);
+   const additon = number1 + number2;
+   const resultText = `${number1} + ${number2} = ${additon}`; //10 + 20 = 30
+
+   return resultText;
+}
+ 
+const result1 = calculator(10, 24);   
+console.log(result1);
+
+const result2 = calculator(100, 200);
+console.log(result2); 
+*/
+
+// DECLERATION & EXPRESSION
+
+//DECLERATION
+/*
+function calculateAge1(birthYear) {
+   const curentYear = 2050;
+
+   return curentYear - birthYear;
+}
+
+const age1 = calculateAge1(2004);
+console.log(age1);
+
+//EXPREASSION
+const calculateAge2 = function (birthYear) {
+   const curentYear = 2050;
+   
+   return curentYear - birthYear;
+};
+
+const age2 = calculateAge2 (2004);
+console.log(age2);
+*/
+
+
+
+// const firstName = function(name){
+//    console.log(`Yaqoob`);
+// }
+
+// const lastName = () => {
+//    console.log(`Noorzai`);
+// }
+
+
+// firstName();
+// lastName();
+
+
+
+// Homework:
+// 10 concept for function and do it with three syntax.
+
+
+function firstName(){
+   console.log(`Yaqoob`);
+}
+
+function lastName(){
+   firstName();
+   console.log(`Noorzai`);
+}
+
+lastName();
+
+
+// Homework:
+// write five function and one main function as calculator to calculate the numbers.
+
+
+// --------------------------------------ARRAYS:
+
+
+const car1 = 'BMW';
+const car3 = 'Range Rover';
+const car2 = 'Benz';
+
+const carArray = ['BMW', 'Range Rover', 'Benz']; //More common.
+
+const car2Array = new Array('Toyota', 'Audi', 'Purche');
+
+
+console.log(carArray);
+console.log(car2Array);
+
+
+
+// Operations of array:
+
+// Push() 
+// Unshift()
+// Pop()
+// shift()
+
+const person = ['Mostafa', 'Yaqoob', 'Saber'];
+console.log(person);
+
+person.push('Belal');
+const personPushLe = person.push('Belal');
+console.log(person);
+console.log(personPushLe);
+
+person.pop();
+const popName = person.pop();
+console.log(popName);
+console.log(person);
+
+person.unshift('Ramin');
+console.log(person);
+
+person.shift();
+console.log(person);~
