@@ -430,67 +430,184 @@ console.log(age2);
 // firstName();
 // lastName();
 
-
-
 // Homework:
 // 10 concept for function and do it with three syntax.
+ 
+//---------------------------
+// function countryCar (Country){
+//    console.log(`Afghanistan`);
+// }
+// const modelCar = function(car){
+//    console.log(`Benz`);
+// }
 
+// const yearCar = () => {
+//    console.log(`2020`);
+// }
 
-function firstName(){
-   console.log(`Yaqoob`);
-}
+// countryCar();
+// modelCar();
+// yearCar();
+// // ---------------------------
 
-function lastName(){
-   firstName();
-   console.log(`Noorzai`);
-}
+// // ---------------------------
+// function fatherName (Fname){
+//    console.log(`Nader Shah`);
+// }
 
-lastName();
+// const brotherName = function (bName){
+//    console.log(`Mostafa`);
+// }
+// const city = () => {
+//    console.log(`Herat`);
+// }
+
+// fatherName();
+// brotherName();
+// city();
+// // ------------------------
+
+// // ------------------------
+// function kindFruit (){
+//    console.log(`Banana`);
+// }
+// const pruductCountry = function (){
+//    console.log(`Afghanistan`);
+// }
+// const deleveryCountry = () => {
+//    console.log(`America`);
+// }
+
+// kindFruit();
+// pruductCountry();
+// deleveryCountry();
+// // -----------------------
+
+// // -----------------------
+// function laptapModel (){
+//    console.log(`Latitude 7300`);
+// }
+// const companyModel = function (){
+//    console.log(`DEEL`);
+// }
+// const yearGenaration = () => {
+//    console.log(`2019`);
+// }
+// laptapModel();
+// companyModel();
+// yearGenaration();
+// -----------------------
+
+// FUNCTON DECLERATION 
+
+// function firstName(){
+//    console.log(`Yaqoob`);
+// }
+
+// function lastName(){
+//    firstName();
+//    console.log(`Noorzai`);
+// }
+
+// lastName();
 
 
 // Homework:
 // write five function and one main function as calculator to calculate the numbers.
 
+// // Function for Addition
+// function add(a, b) {
+//    return a + b;
+// }
+
+// // Function for Subtraction
+// function subtract(a, b) {
+//    return a - b;
+// }
+
+// // Function for Multiplication
+// function multiply(a, b) {
+//    return a * b;
+// }
+
+// // Function for Division
+// function divide(a, b) {
+//    if (b === 0) {
+//        return "Error: Division by zero";
+//    }
+//    return a / b;
+// }
+
+// // Function for Modulus
+// function modulus(a, b) {
+//    return a % b;
+// }
+
+// // Main Calculator Function
+// function calculator(operation, num1, num2) {
+//    switch (operation) {
+//        case 'add':
+//            return add(num1, num2);
+//        case 'subtract':
+//            return subtract(num1, num2);
+//        case 'multiply':
+//            return multiply(num1, num2);
+//        case 'divide':
+//            return divide(num1, num2);
+//        case 'modulus':
+//            return modulus(num1, num2);
+//        default:
+//            return "Error: Invalid operation";
+//    }
+// }
+
+// // Example Usage
+// console.log(calculator('add', 5, 3));        // Output: 8
+// console.log(calculator('subtract', 5, 3));   // Output: 2
+// console.log(calculator('multiply', 5, 3));   // Output: 15
+// console.log(calculator('divide', 5, 0));     // Output: Error: Division by zero
+// console.log(calculator('modulus', 5, 3));    // Output: 2
+
 
 // --------------------------------------ARRAYS:
 
 
-const car1 = 'BMW';
-const car3 = 'Range Rover';
-const car2 = 'Benz';
+// const car1 = 'BMW';
+// const car3 = 'Range Rover';
+// const car2 = 'Benz';
 
-const carArray = ['BMW', 'Range Rover', 'Benz']; //More common.
+// const carArray = ['BMW', 'Range Rover', 'Benz']; //More common.
 
-const car2Array = new Array('Toyota', 'Audi', 'Purche');
-
-
-console.log(carArray);
-console.log(car2Array);
+// const car2Array = new Array('Toyota', 'Audi', 'Purche');
 
 
+// console.log(carArray);
+// console.log(car2Array);
 
-// Operations of array:
 
-// Push() 
-// Unshift()
-// Pop()
-// shift()
 
-const person = ['Mostafa', 'Yaqoob', 'Saber'];
-console.log(person);
+// // Operations of array:
 
-person.push('Belal');
-const personPushLe = person.push('Belal');
-console.log(person);
-console.log(personPushLe);
+// // Push() 
+// // Unshift()
+// // Pop()
+// // shift()
 
-person.pop();
-const popName = person.pop();
-console.log(popName);
-console.log(person);
+// const person = ['Mostafa', 'Yaqoob', 'Saber'];
+// console.log(person);
 
-person.unshift('Ramin');
-console.log(person);
+// person.push('Belal');
+// const personPushLe = person.push('Belal');
+// console.log(person);
+// console.log(personPushLe);
 
-person.shift();
-console.log(person);~
+// person.pop();
+// const popName = person.pop();
+// console.log(popName);
+// console.log(person);
+
+// person.unshift('Ramin');
+// console.log(person);
+
+// person.shift();
+// console.log(person);
